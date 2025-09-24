@@ -23,9 +23,6 @@ SUPABASE_URL = "https://eqpwwtyqhyjukdudtklm.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVxcHd3dHlxaHlqdWtkdWR0a2xtIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODExNTYzMCwiZXhwIjoyMDczNjkxNjMwfQ.qf2uTeYcEedH9JZAGeRALs9XiHYJrTgk7UrMU7aDruM"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-user = get_user_from_db("sara.johnson@xyz.com")
-print(user)
-
 """**Knowledge Base**"""
 
 kb_docs = [
